@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>Calculatrice</h1>
+  </header>
+  <main>
+    <section class="calculatrice">
+      <div class="ecran">
+        <h1 id="resultat"></h1>
+      </div>
+      <div class="clavier">
+        <div class="ligne">
+          <input type="button" value="7" onclick="clavier('7')">
+          <input type="button" value="8" onclick="clavier('8')">
+          <input type="button" value="9" onclick="clavier('9')">
+          <input type="button" value="+" onclick="clavier('+')">
+        </div>
+        <div class="ligne">
+          <input type="button" value="4" onclick="clavier('4')">
+          <input type="button" value="5" onclick="clavier('5')">
+          <input type="button" value="6" onclick="clavier('6')">
+          <input type="button" value="-" onclick="clavier('-')">
+        </div>
+        <div class="ligne">
+          <input type="button" value="1" onclick="clavier('1')">
+          <input type="button" value="2" onclick="clavier('2')">
+          <input type="button" value="3" onclick="clavier('3')">
+          <input type="button" value="*" onclick="clavier('*')">
+        </div>
+        <div class="ligne">
+          <input type="button" value="0" onclick="clavier('0')">
+          <input type="button" value="." onclick="clavier('.')">
+          <input type="button" value="=" onclick="calculer()">
+          <input type="button" value="C" onclick="effacer()">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

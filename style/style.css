@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ac3434;
+  color: #e43030;
+  padding: 20px;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.calculatrice {
+  margin-bottom: 20px;
+}
+
+.ecran {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #b6b0b0;
+}
+
+.ecran h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clavier {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.clavier input {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #d37777;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clavier input:hover {
+  background-color: #eee;
+}
